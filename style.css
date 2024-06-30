@@ -1,0 +1,37 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.quadrant {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    width: 45%;
+    min-width: 300px;
+}
+
+.progress-bar {
+    background-color: #f3f3f3;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 5px;
+    height: 20px;
+}
+
+.progress {
+    background-color: #4caf50;
+    height: 100%;
+    transition: width 0.5s;
+}
+
+.time-info {
+    display: block;
+    margin-top: 5px;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+}
